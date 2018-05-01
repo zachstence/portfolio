@@ -1,0 +1,16 @@
+html, body {
+
+}
+
+.boxed {
+  border: 1px solid black;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  margin-bottom: 20px;
+}
+
+.code-snippet {
+  background: var(--codeColor);
+}
