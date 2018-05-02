@@ -2,10 +2,10 @@
 
 <html>
   <head>
-    <title>CS 2308</title>
+    <title>Portfolio - CS 2308</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="2308style.css">
-    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="../globals.css">
   </head>
   
   <?php include "/home/Students/zms22/public_html/portfolio/head.php"; ?>

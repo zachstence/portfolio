@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CS 2308</title>
+    <title>Portfolio - Home</title>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="pestyle.css">
-    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
   </head>
   
   <?php include "/home/Students/zms22/public_html/portfolio/head.php"; ?>
@@ -16,10 +15,8 @@
   
   <body> 
     <div class="main">
-      
-      <h2>[WORK IN PROGRESS]</h2>
-      
-      <p>
+                 
+      <p><img src="portrait.jpg" alt="Portrait" width="10%">
         I am in the progress of making this simple website as a way to keep track of all things I do involing computer science: homework assignments, coding challenges, and personal projects. This website will link to my various professional profiles (LinkedIn, github, etc.) and will also have my resume and other information that may be important to employers.
       </p>
       <p>

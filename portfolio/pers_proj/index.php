@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>Portfolio - Personal Projects</title>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="../globals.css">
   </head>
 
   <?php include "/home/Students/zms22/public_html/portfolio/head.php"; ?>

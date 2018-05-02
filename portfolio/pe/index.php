@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CS 2308</title>
+    <title>Portfolio - Project Euler</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="pestyle.css">
     <link rel="stylesheet" type="text/css" href="../main.css">
@@ -25,17 +25,17 @@
       </div>
       
       <div class="boxed">
-        <h2><a href="https://projecteuler.net/problem=2">Problem 2: Even Fibonacci numbers</a></h2>
+        <h2><a href="002">Problem 2: Even Fibonacci numbers</a></h2>
         <p>Details about this ProjectEuler problem</p>
       </div>
       
       <div class="boxed">
-        <h2><a href="https://projecteuler.net/problem=3">Problem 3: Largest prime factor</a></h2>
+        <h2><a href="003">Problem 3: Largest prime factor</a></h2>
         <p>Details about this ProjectEuler problem</p>
       </div>
       
       <div class="boxed">
-        <h2><a href="https://projecteuler.net/problem=4">Problem 4: Largest palindrome product</a></h2>
+        <h2><a href="004">Problem 4: Largest palindrome product</a></h2>
         <p>Details about this ProjectEuler problem</p>
       </div>
       

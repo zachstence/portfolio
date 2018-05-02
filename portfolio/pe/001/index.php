@@ -4,7 +4,7 @@
     <title>CS 2308</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="../pestyle.css">
-    <link rel="stylesheet" type="text/css" href="../../main.css">
+    <link rel="stylesheet" type="text/css" href="../../globals.css">
   </head>
   
   <?php include "/home/Students/zms22/public_html/portfolio/head.php"; ?>
@@ -25,10 +25,10 @@
       </div>
       
       <div class="boxed">
-        <p>This is a very simple and classic problem, commonly referred to as the "Fizz-Buzz test" used in job interviews in order to weed out applicants. More optimization could be done to make the program run faster, but I prefer this very clear solution.</p>
-        
         <p>I first solved this problem September 1st, 2014 in my AP Computer Science class in highschool. I do not have the original code I wrote, but I have redone the solution and included it below.</p>
-       
+        
+        <p>This is a very simple and classic problem, commonly referred to as the "Fizz-Buzz test" used in job interviews in order to weed out applicants. More optimization could be done to make the program run faster, but I prefer this very clear solution.</p>
+         
         <div class="code-snippet">
           <pre><code><xmp><?php include "001.cpp" ?></xmp></code></pre>
         </div>
