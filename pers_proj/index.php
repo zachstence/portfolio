@@ -6,11 +6,8 @@
     <link rel="stylesheet" type="text/css" href="../globals.css">
   </head>
 
-  <?php include "/home/Students/zms22/public_html/portfolio/head.php"; ?>
-
-  <nav> 
-    <?php include "/home/Students/zms22/public_html/portfolio/nav.php"; ?>
-  </nav>
+  <?php include "../head.php"; ?>
+  <nav><?php include "../nav.php"; ?></nav>
   
   <body>
     

@@ -4,14 +4,11 @@
   <head>
     <title>Portfolio - CS 2318</title>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="../globals.css">
+    <link rel="stylesheet" type="text/css" href="../style/cs2318.css">
  </head>
   
-  <?php include "/home/Students/zms22/public_html/portfolio/head.php"; ?>
-
-  <nav> 
-    <?php include "/home/Students/zms22/public_html/portfolio/nav.php"; ?>
-  </nav>
+  <?php include "../head.php"; ?>
+  <nav><?php include "../nav.php"; ?></nav>
   
   <body>
     
