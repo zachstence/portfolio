@@ -17,16 +17,43 @@
     <div class="main">
       <br>
       
-      <div class="boxed">
-        <h2><a id="link"><div id="title"></div></a></h2>
-        <div id="problem"></div>
-      </div>
-      <div class="boxed">
-        <div id="sol_desc"></div>
-        <pre><code class="c++"><?php echo htmlspecialchars(file_get_contents("./001/001.cpp")); ?></code></pre>
-        <!--<pre><code class="c++" id="sol_code"></code></pre>-->
-        Answer: <code id="answer"></code>
-      <script src="fill.js"></script>
+        <?php
+          $json = file_get_contents("./001-616.json");
+          $problems = json_decode($json);
+          
+          if (isset($_GET["problem"])) {
+            $param = $_GET["problem"];
+            $problemNum = (int)$param;
+            
+            $problem = $problems->$problemNum;
+            
+            $title = $problem->title;
+            $url = $problem->url;
+            echo "<div class=\"boxed\">";
+            echo "<a href=\"" . $url . "\" target=\"_blank\"><h2>Problem " . $problemNum . ": " . $title . "</h2></a>";
+            
+            $content = $problem->content;
+            $html = $content->html;
+            echo $html;
+
+            echo "</div>";
+            
+            
+            $problemStr = str_pad($problemNum, 3, "0", STR_PAD_LEFT);
+            $dir = "./" . $problemStr . "/";
+            $desc = $dir . $problemStr . "_desc.html";
+            $code = $dir . $problemStr . ".cpp";
+            $ans = $dir . $problemStr . "_ans.txt";
+            echo "<div class=\"boxed\">"; 
+            echo file_get_contents($desc);
+            echo "<pre><code class=\"c++\">" . htmlspecialchars(file_get_contents($code)) . "</code></pre>";
+            echo "Answer: <code>" . file_get_contents($ans) . "</code>";
+            
+          } else {
+            echo "No problem specified - Loading problem listing page";
+            $problemNum = 0;
+          }
+        ?>
 
     </div>
     
