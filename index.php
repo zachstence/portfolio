@@ -9,6 +9,9 @@
   <?php include "head.php"; ?>
   <nav><?php include "nav.php"; ?></nav>
   
+  <?php include "visitors.php"; ?>
+  
+  
   <body> 
     <div class="main">
                  

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <title>Portfolio - CS 2318</title>
