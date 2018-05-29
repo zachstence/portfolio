@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(problem=[0-9]+) http://cs.txstate.edu/~zms22/portfolio/pe/?$1
+RewriteRule ^project/resources/(.*)$ http://cs.txstate.edu/~zms22/portfolio/pe/files/$1
