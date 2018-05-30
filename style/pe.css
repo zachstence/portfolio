@@ -12,7 +12,3 @@ html, body {
 
   margin-bottom: 20px;
 }
-
-.code-snippet {
-  background: var(--codeColor);
-}

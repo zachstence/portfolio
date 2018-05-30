@@ -1,24 +1,20 @@
 <style>
-.nav {
-  text-align: center;
-}
+  .nav {
+    text-align: center;
+  }
 
-.button {
-  /*padding: 15px 25px;*/
-  padding: 15px 25px;
-  background-color: #3889b7;
-  color: #fff;
-  border: none;
-  text-decoration: none;
-}
+  .button {
+    /*padding: 15px 25px;*/
+    padding: 15px 25px;
+    background-color: #3889b7;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+  }
 
-.button:hover {
-  background-color: #2e7096;
-}
-
-.button:active {
-  transform: translateY(4px);
-}
+  .button:hover {
+    background-color: #2e7096;
+  }
 </style>
 
 <div class="nav">
