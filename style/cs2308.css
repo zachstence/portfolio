@@ -1,9 +1,7 @@
-html, body {
-
-}
+@import "globals.css";
 
 .assignment {
-  border: 1px solid black;
+  border: var(--border-width) solid var(--border-color);
 
   padding-left: 10px;
   padding-right: 10px;

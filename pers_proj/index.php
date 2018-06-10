@@ -3,13 +3,13 @@
   <head>
     <title>Portfolio - Personal Projects</title>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="../globals.css">
+    <link rel="stylesheet" type="text/css" href="../style/pers_proj.css">
   </head>
-
-  <?php include "../head.php"; ?>
-  <nav><?php include "../nav.php"; ?></nav>
   
   <body>
+    
+    <?php include "../head.php"; ?>
+    <?php include "../nav.php"; ?>
     
     <div class="main">
       <p>

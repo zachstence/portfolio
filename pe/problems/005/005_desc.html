@@ -1,0 +1,117 @@
+<div class="desc" style="overflow: auto">
+  <div class="text" style="float: left; width: 50rem">
+  <p>I solved this problem by simply looping through numbers in a <code>while</code> loop and checking whether or not they are divisible by all numbers 1 to 20 in a function <code>divisible</code>. This code is fairly elementary but there is a more elegant solution I like a lot that doesn't involve any code.</p>
+  <p>The idea is to try to come up with the prime factorization of the number we wish to find. Since we know that the number must be divisible by all numbers 1-20, we can simply start from 1 and add factors until all are covered.</p>
+</div>
+
+<div class="table" style="float: right; width: 30rem">
+<table id="problem5" style="margin: 1rem">
+  <tr>
+    <th>Next number<br>to cover</th>
+    <th>Current prime<br>factorization</th>
+    <th>Explanation</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>&nbsp;</td>
+    <td>Already divisible by 1 (trivial)</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>Multiply by 2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>2&middot;3</td>
+    <td>Multiply by 3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>2<sup>2</sup>&middot;3</td>
+    <td>Multiply by 2</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>2<sup>2</sup>&middot;3&middot;5</td>
+    <td>Multiply by 5</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>&nbsp;</td>
+    <td>Already divisible by 6 (2&middot;3)</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>2<sup>2</sup>&middot;3&middot;5&middot;7</td>
+    <td>Mutliply by 7</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>2<sup>3</sup>&middot;3&middot;5</td>
+    <td>Multiply by 2</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>2<sup>3</sup>&middot;3<sup>2</sup>&middot;5</td>
+    <td>Multiply by 3</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>&nbsp;</td>
+    <td>Already divisible by 10 (2&middot;5)</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>2<sup>3</sup>&middot;3<sup>2</sup>&middot;5&middot;11</td>
+    <td>Mutliply by 11</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>&nbsp;</td>
+    <td>Already divisible by 12 (2<sup>2</sup>&middot;3)</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>2<sup>3</sup>&middot;3<sup>2</sup>&middot;5&middot;11&middot;13</td>
+    <td>Multiply by 13</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>2<sup>3</sup>&middot;3<sup>2</sup>&middot;5&middot;7&middot;11&middot;13</td>
+    <td>Mutliply by 7 (14 = 2&middot;7)</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>&nbsp;</td>
+    <td>Alreaddy divisible by 15 (3&middot;5)</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>2<sup>4</sup>&middot;3<sup>2</sup>&middot;5&middot;7&middot;11&middot;13</td>
+    <td>Multiply by 2</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>2<sup>4</sup>&middot;3<sup>2</sup>&middot;5&middot;7&middot;11&middot;13&middot;17</td>
+    <td>Mutliply by 17</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>&nbsp;</td>
+    <td>Already divisible by 18 (2&middot;3<sup>2</sup>)</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>2<sup>4</sup>&middot;3<sup>2</sup>&middot;5&middot;7&middot;11&middot;13&middot;17&middot;19</td>
+    <td>Multiply by 19</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>&nbsp;</td>
+    <td>Already divisible by 20 (2<sup>2</sup>&middot;5)</td>
+  </tr>
+</table>
+</div>
+
+</div>

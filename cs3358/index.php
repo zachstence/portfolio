@@ -6,10 +6,10 @@
     <link rel="stylesheet" type="text/css" href="../style/cs3358.css"> 
   </head>
 
-  <?php include "../head.php"; ?>
-  <nav><?php include "../nav.php"; ?></nav>
-  
   <body>
+    
+    <?php include "../head.php"; ?>
+    <?php include "../nav.php"; ?>
     
     <div class="main">
       <p>

@@ -1,4 +1,21 @@
-img {
+@import "globals.css";
+
+
+
+#homepage-intro {
+  overflow: auto;
+  margin-bottom: 2rem;
+}
+
+.crop {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
   float: left;
-  margin-right: 10px
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+img {
+  width: 100%;
 }

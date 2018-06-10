@@ -1,0 +1,14 @@
+@import "globals.css";
+
+nav {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.button#nav {
+  background-color: var(--blue-color);
+}
+
+.button#nav:hover {
+  background-color: var(--blue-hover-color);
+}
