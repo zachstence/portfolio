@@ -1,9 +1,12 @@
 <?php
   
   function makeTable($max, $numPerTable, $numPerRow) {
-    $solved_problems = scandir("./problems");
-    foreach ($solved_problems as $p) {
-      $p = (int)$p;
+    $dir = scandir("./problems");
+    $solved_problems = array();
+    $pending_problems = array();
+    foreach ($dir as $d) {
+      if ($d[0] == '_') $pending_problems[] = (int)substr($d, 1);
+      else $solved_problems[] = (int)$d; 
     }
     
     $numTables = ceil($max / $numPerTable);
@@ -17,9 +20,11 @@
           $problem = (($t * $numPerTable) + ($r * $numPerRow) + ($c + 1));
 
           $solved = in_array($problem, $solved_problems);
-          if ($solved) echo "<td class=\"solved\">";
-          else echo "<td class=\"unsolved\">";
-          echo "<a href=?problem=" . $problem . ">" . $problem . "</a></td>";
+          $pending = in_array($problem, $pending_problems);
+          
+          if ($solved) echo "<td class=\"solved\"><a href=?problem=" . $problem . ">" . $problem . "</a></td>";
+          else if ($pending) echo "<td class=\"pending\"><a href=\"https://projecteuler.net/problem=" . $problem . "\" target=\"_blank\">" . $problem . "</td>";
+          else echo "<td class=\"unsolved\"><a href=\"https://projecteuler.net/problem=" . $problem . "\" target=\"_blank\">" . $problem . "</td>";
           
           if ($problem >= $max) return;
         }

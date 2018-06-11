@@ -1,8 +1,18 @@
 @import "globals.css";
 
 :root {
-  --solved-color: #00FF00;
-  --unsolved-color: #FF0000;
+  --unsolved-color: #ff6060;
+  --pending-color: #d2d2cf;
+  --solved-color: #adda82;
+
+  --pe-unsolved-color: #eee;
+  --pe-solved-color: #cee7b6;
+}
+
+img {
+  float: left;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 table {
@@ -25,6 +35,10 @@ td {
 
 td.solved {
   background-color: var(--solved-color);
+}
+
+td.pending {
+  background-color: var(--pending-color);
 }
 
 td.unsolved {

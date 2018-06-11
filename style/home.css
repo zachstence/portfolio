@@ -8,8 +8,8 @@
 }
 
 .crop {
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   overflow: hidden;
   float: left;
   margin-top: 1rem;
@@ -18,4 +18,44 @@
 
 img {
   width: 100%;
+}
+
+div#info-buttons {
+  width: 100%;
+}
+
+.button {
+  width: 25%;
+}
+
+.button#resume {
+  background-color: var(--latex-project-primary);
+}
+
+.button#resume:hover {
+  background-color: var(--resume-button-hover);
+}
+
+.button#linkedin {
+  background-color: var(--linkedin-button);
+}
+
+.button#linkedin:hover {
+  background-color: var(--linkedin-button-hover);
+}
+
+.button#github {
+  background-color: var(--github-primary);
+}
+
+.button#github:hover {
+  background-color: black;
+}
+
+.button#email {
+  background-color: var(--txst-button);
+}
+
+.button#email:hover {
+  background-color: var(--txst-primary);
 }

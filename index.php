@@ -17,7 +17,7 @@
         <div class="crop"><img src="portrait.jpg" alt="Portrait"></div>
         <div class="text">
           <p>I am in the progress of making this simple website as a way to keep track of all things I do involing computer science: homework assignments, coding challenges, and most importantly personal projects. This website will link to my various professional profiles (LinkedIn, GitHub, etc.) and will also have my resume and other information that may be important to employers.</p>
-          <p>Aside from that, this website serves as a way for me to learn/practice html, php, and css, and keep me busy in my free time.</p>
+          <p>Aside from that, this website serves as a way for me to learn/practice HTML, PHP, and CSS; and keep me busy in my free time.</p>
         </div>
         
       </div>
@@ -33,13 +33,13 @@
       </ul>
       
       <h2>Other Documents and Links</h2>
-      <ul>
-        <li><a href="2018.06.05_resume.pdf">Resume</a></li>
-        <li><a href="https://www.linkedin.com/in/zachary-stence/">LinkedIn</a></li>
-        <li><a href="https://www.github.com/zachstence">GitHub</a></li>
-        <li><a href="mailto:zms22@txstate.edu">Email</a></li>
-      </ul>
-      
+      <div id="info-buttons">
+        <a class="button" id="resume"   href="2018.06.05_resume.pdf"                       target="_blank">Resume</a></li>
+        <a class="button" id="linkedin" href="https://www.linkedin.com/in/zachary-stence/" target="_blank">LinkedIn: zachary-stence</a></li>
+        <a class="button" id="github"   href="https://www.github.com/zachstence"           target="_blank">GitHub: zachstence</a></li>
+        <a class="button" id="email"    href="mailto:zms22@txstate.edu"                    target="_blank">zms22@txstate.edu</a></li>
+      </div>
+
     </div>
   </body>
 </html>

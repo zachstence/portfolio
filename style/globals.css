@@ -5,8 +5,23 @@
 :root {
   --border-width: 0.09rem;
   --border-color: black;
+
   --blue-color: #3889b7;
   --blue-hover-color: #2e7096;
+
+  --latex-project-primary: #008080;
+  --resume-button-hover: #007272;
+
+  --linkedin-primary: #0077B5;
+  --linkedin-button: #0073b1;
+  --linkedin-button-hover: #006097;
+
+  --github-primary: #24292e;
+
+  --txst-primary: #501214;
+  --txst-secondary: #E8E3DB;
+  --txst-tertiary: #6A5638;
+  --txst-button: #622a2c;
 }
 
 *:not(pre code) {
@@ -43,6 +58,7 @@ h6 { font-size: 0.8rem;  }
   width: 65%;
   
   padding: 1rem;
+  padding-bottom: 2rem;
   background-color: #FFFFFF;
   
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
