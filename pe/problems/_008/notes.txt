@@ -1,3 +1,0 @@
-Go through the string and split by zeros. Then, cut beginning and end of each string by 6 because there can't be a group of numbers including a zero because the product would be 0 and therefore not the biggest. Then put all trimmed strings into an array,  loop through and calculate all products of each string greater than 13 in length.
-
-I think this should work. May be better to draw out on paper or something!
