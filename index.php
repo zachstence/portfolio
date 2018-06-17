@@ -18,6 +18,7 @@
         <div class="text">
           <p>I am in the progress of making this simple website as a way to keep track of all things I do involing computer science: homework assignments, coding challenges, and most importantly personal projects. This website will link to my various professional profiles (LinkedIn, GitHub, etc.) and will also have my resume and other information that may be important to employers.</p>
           <p>Aside from that, this website serves as a way for me to learn/practice HTML, PHP, and CSS; and keep me busy in my free time.</p>
+          <p>All of the code for this website is available on <a href="https://www.github.com/zachstence/Portfolio" target="_blank">my GitHub</a>!</p>
         </div>
         
       </div>

@@ -1,12 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-const long NUM = 600851475143;
-
-/**
- * Returns true if x is prime, false otherwise.
- * @param x: A positive integer 
- */
 bool isPrime(int x) {
   // 1 is not prime; false for non-positive integers
   if (x <= 1) return false;
@@ -22,13 +16,17 @@ bool isPrime(int x) {
   }
 }
 
+int findNextPrime(int x) {
+  for (x += 1; !isPrime(x); x++);
+  return x;
+}
+
 int main() {
-  // iterate through possible divisors
-  for (int i = floor(sqrt(NUM)); i > 0; i--) {
-    // if i is a divisor and it is prime, answer found
-    if (NUM % i == 0 && isPrime(i)) {
-      std::cout << i << std::endl;
-      break;
-    }
+  int prime = 2;
+  int index = 1;
+  while (index < 10001) {
+    prime = findNextPrime(prime);
+    index++;
   }
+  std::cout << prime << std::endl;
 }

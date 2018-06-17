@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+const int PRECISION = 50;
+
+int* divide(int a, int x) {
+  int num[PRECISION];
+  int r = a;
+  int rem[1000] = {0};
+  
+  for (int i = 0; i < PRECISION; i++) {
+    num[i] = (10 * r)/x;
+    r = (10 * r) % x;
+    if (isIn(r, rem)
+      return rem;
+    else
+      rem[i] = r;
+  }
+
+  cout << a << "/" << x << " = 0.";
+  for (int i = 0; i < PRECISION; i++) {
+    cout << num[i];
+  }
+  cout << endl;
+
+  return rem;
+}
+
+void display(int arr[], int size) {
+  for (int i = 0; i < size; i++) {
+    cout << arr[i] << " ";
+  }
+  cout << endl;
+}
+
+int main () {
+  int a, x;
+  cout << "Enter the numerator: ";
+  cin >> a;
+  cout << "Enter the denominator: ";
+  cin >> x;
+
+  display(divide(a, x), 1000);
+}

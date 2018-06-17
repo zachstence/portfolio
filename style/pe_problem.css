@@ -15,4 +15,8 @@
   border-collapse: collapse;
   border: var(--border-width) solid var(--border-color);
   padding: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }

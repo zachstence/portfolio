@@ -23,7 +23,8 @@
           $pending = in_array($problem, $pending_problems);
           
           if ($solved) echo "<td class=\"solved\"><a href=?problem=" . $problem . ">" . $problem . "</a></td>";
-          else if ($pending) echo "<td class=\"pending\"><a href=\"https://projecteuler.net/problem=" . $problem . "\" target=\"_blank\">" . $problem . "</td>";
+          else if ($pending) echo "<td class=\"pending\"><a href=?problem=" . $problem . ">" . $problem . "</td>";
+          //else if ($pending) echo "<td class=\"pending\"><a href=\"https://projecteuler.net/problem=" . $problem . "\" target=\"_blank\">" . $problem . "</td>";
           else echo "<td class=\"unsolved\"><a href=\"https://projecteuler.net/problem=" . $problem . "\" target=\"_blank\">" . $problem . "</td>";
           
           if ($problem >= $max) return;
