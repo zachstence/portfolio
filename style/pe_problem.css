@@ -1,16 +1,5 @@
 @import "globals.css";
 
-.boxed {
-  border: var(--border-width) solid var(--border-color);
-
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-
-  margin-bottom: 1rem;
-
-  overflow: auto;
-}
-
 #problem5, #problem5 th, td {
   border-collapse: collapse;
   border: var(--border-width) solid var(--border-color);

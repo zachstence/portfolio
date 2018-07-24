@@ -32,16 +32,47 @@ pre code {
   font-size: 0.9rem;
 }
 
+.code_wrapper {
+  overflow-y: auto;
+  height: 25rem;
+}
+
 p, li { 
   font-size: 110%;
 }
 
-h1 { font-size: 2.5rem;    }
-h2 { font-size: 1.75rem;  }
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.25rem; }
-h5 { font-size: 1rem;  }
-h6 { font-size: 0.8rem;  }
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0pt;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0pt;
+  margin-top: 0pt;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0pt;
+  margin-top: 0pt;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 0pt;
+  margin-top: 0pt;
+}
+
+h6 {
+  font-size: 0.8rem;
+  margin-bottom: 0pt;
+  margin-top: 0pt;
+}
 
 .button {
   padding: 0.8rem 1.5rem;
@@ -62,9 +93,30 @@ h6 { font-size: 0.8rem;  }
   background-color: #FFFFFF;
   
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
 }
 
 body {
   background: #f6f6f6;
+}
+
+.left_half {
+  float: left;
+  width: 49%;
+}
+
+.right_half {
+  float: right;
+  width: 49%;
+}
+
+.boxed {
+  border: var(--border-width) solid var(--border-color);
+
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 1rem;
+
+  margin-bottom: 0rem;
+
+  overflow: auto;
 }

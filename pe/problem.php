@@ -39,7 +39,7 @@
       $ans = $dir . $problemStr . "_ans.txt";
       echo file_get_contents($desc);
       echo "<pre><code class=\"c++\">" . htmlspecialchars(file_get_contents($code)) . "</code></pre>";
-      echo "<p>Answer: <code>" . file_get_contents($ans) . "</code></p>";
+      echo "<p style=\"margin-bottom: 0pt\">Answer: <code>" . file_get_contents($ans) . "</code></p>";
     ?>
     </div>
   </body>

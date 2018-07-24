@@ -1,0 +1,28 @@
+----------------------------------------
+
+testing isSorted():
+arr1:			1 2 3 4 5 6 7 8 
+Expected result:	true
+Actual result:		true
+arr2:			8 7 6 5 4 3 2 1 
+Expected result:	false
+Actual result:		false
+arr3:			1 2 3 5 4 6 7 8 
+Expected result:	false
+Actual result:		false
+
+testing chain(53 inches):
+Expected result: 15.46	feet: 4	inches: 5
+Actual results:  15.46	feet: 4	inches: 5
+
+testing grow():
+test arr4[]:		1 2 3 4 5 6 7 8 9 
+Expected result:	1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9
+Actual result:		1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 
+
+testing subArray():
+test arr5[]:		1 2 3 4 5 6 7 8 9 
+start:			5
+length:			4
+Expected result:	6 7 8 9
+Actual result:		6 7 8 9 

@@ -1,0 +1,26 @@
+{
+  "1" : {
+    "name" : "Lab Rats",
+    "desc" : "This programming assignment was fairly simple program to keep track of the name, weight, and maze time of several rats, display a table of them, their average weight, and the fastest and slowest maze runners. The purpose of this assignment was to familiarize us with arrays and how to perform calculations and display formatted output."
+  },
+  "2" : {
+    "name" : "Small Store Inventory",
+    "desc" : ""
+  },
+  "3" : {
+    "name" : "Practice with pointers and dynamic memory allocation",
+    "desc" : ""
+  },
+  "4" : {
+    "name" : "Trivia Quiz",
+    "desc" : ""
+  },
+  "5" : {
+    "name" : "Linked List of String",
+    "desc" : ""
+  },
+  "6" : {
+    "name" : "Match Brackets using a Stack",
+    "desc" : ""
+  }
+}

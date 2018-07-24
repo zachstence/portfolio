@@ -1,0 +1,13 @@
+Ben 6.5 29
+Fred 5.8 31
+Splinter 7.7 33
+Lima Bean 6.5 27
+Black Bean 5.8 31
+Pinto Bean 7.7 33
+Skat 6.5 29
+Big Pook 9.8 34
+Tiger 7.7 33
+
+The average weight of the lab rats is 7.1 ounces.
+The fastest rat was Lima Bean with a time of 27 seconds.
+The slowest rat was Big Pook with a time of 34 seconds.

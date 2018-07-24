@@ -25,10 +25,10 @@
       <hr> 
       <h2>Website Sections</h2>
       <ul>
-        <li>Home - The homepage of my website, this page!</li>
-        <li>CS 2308 - All of the assignments I did for "Foundations of Computer Science II" at Texas State</li>
-        <li>CS 2318 - All of the assignments I did for "Assembly Language" at Texas State</li>
-        <li>CS 3358 - All of the assignments I did for "Data Structures and Algorithms" at Texas State</li>
+        <li>Home</li>
+        <li>CS 2308 - Foundations of Computer Science II class</li>
+        <li>CS 2318 - Assembly Language class</li>
+        <li>CS 3358 - Data Structures and Algorithms class</li>
         <li>Project Euler - All Project Euler problems I have solved complete with explanations</li>
         <li>Personal Projects - A summary of projects I am working on myself with links to code on GitHub</li>
       </ul>

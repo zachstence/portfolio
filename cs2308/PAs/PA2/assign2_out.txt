@@ -1,0 +1,87 @@
+
+--------------------------------------------------
+
+What would you like to do?
+1. Display the inventory sorted by SKU.
+2. Lookup a product by SKU.
+3. Lookup a product by name.
+4. Quit.
+
+Enter your choice: 1
+
+SKU   Name              Quantity  Price
+1122  SamsungCaptivate  10        11.89
+1234  iPhone3GS         3         99.95
+2687  MacbookAir        12        599
+5365  IPhone6           5         349.99
+6969  OnePlus3T         420       339.99
+7862  GoogleNexus7      17        89.99
+8787  BlackberryBold    1         40.5
+9999  IPadAir2          3         599.99
+
+--------------------------------------------------
+
+What would you like to do?
+1. Display the inventory sorted by SKU.
+2. Lookup a product by SKU.
+3. Lookup a product by name.
+4. Quit.
+
+Enter your choice: 2
+Enter the SKU of the product you would like to lookup: 7862
+
+Name:           GoogleNexus7
+SKU:            7862
+Quantity:       17
+Price:          89.99
+
+--------------------------------------------------
+
+What would you like to do?
+1. Display the inventory sorted by SKU.
+2. Lookup a product by SKU.
+3. Lookup a product by name.
+4. Quit.
+
+Enter your choice: 3
+Enter the name of the product you would like to lookup: OnePlus3T
+
+Name:           OnePlus3T
+SKU:            6969
+Quantity:       420
+Price:          339.99
+
+--------------------------------------------------
+
+What would you like to do?
+1. Display the inventory sorted by SKU.
+2. Lookup a product by SKU.
+3. Lookup a product by name.
+4. Quit.
+
+Enter your choice: 2
+Enter the SKU of the product you would like to lookup: 0000
+No product found with this SKU
+
+--------------------------------------------------
+
+What would you like to do?
+1. Display the inventory sorted by SKU.
+2. Lookup a product by SKU.
+3. Lookup a product by name.
+4. Quit.
+
+Enter your choice: 3
+Enter the name of the product you would like to lookup: NotARealName
+No product found with this name.
+
+--------------------------------------------------
+
+What would you like to do?
+1. Display the inventory sorted by SKU.
+2. Lookup a product by SKU.
+3. Lookup a product by name.
+4. Quit.
+
+Enter your choice: 4
+Program ended.
